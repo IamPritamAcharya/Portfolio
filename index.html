@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Flipping Business Card</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css'>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Inconsolata'>
+  <link rel="stylesheet" href="./cursor.css">
+  <link rel="stylesheet" href="./style.css">
+
+  <link rel="stylesheet" href="./navcss.css"> <!-- Include the nav bar CSS -->
+  <link href='https://fonts.googleapis.com/css?family=Days+One' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+
+<!-- Drawer -->
+<div id="drawer" class="drawer">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeDrawer()">&times;</a>
+  <h2>My Projects</h2>
+  <ul>
+    <li><a href="https://github.com/IamPritamAcharya/ChatApp">TalkSphere: Full-Stack Chat App</a></li>
+    <li><a href="https://drive.google.com/file/d/1t45GsVHsmTA4kN14FUeCF9W5zqQ4eVJR/view?usp=drive_link&usp=embed_facebook">AI Music Converter: From Images to Melodies</a></li>
+    <li><a href="https://drive.google.com/file/d/1arQQpG2mzO1zxLomAwlKrtwW5k3kPBYq/view?usp=drivesdk&usp=embed_facebook">RapAI: AI-Powered Rap & Audio Generation</a></li>
+    <li><a href="https://drive.google.com/file/d/1lcH2s97iktHTUyFN1eFeITREM5Hh7Aim/view?usp=sharing&usp=embed_facebook">DinoQuest: Unity-Based Dino Adventure for android</a></li>
+    <li><a href="https://drive.google.com/file/d/1zWjMTZ3qvsYRhoXG-5KHLfXaG5e5LP_6/view?usp=drivesdk&usp=embed_facebook&usp=embed_facebook">VoiceMorse: Interactive Voice-Controlled Morse Code Converter</a></li>
+    <li><a href="https://github.com/IamPritamAcharya/CS50">CS50 AI (12 Projects)</a></li>
+    <li><a href="https://docs.google.com/presentation/d/1UYb2slFTyIyXB0aF9Pwsyxp6eQmaVO_E/edit?usp=sharing&ouid=111223326657905586128&rtpof=true&sd=true&usp=embed_facebook">AI-Virtual Tutor: Intelligent Learning Assistant</a></li>
+    <li><a href="https://drive.google.com/file/d/1BvKYTSDoJPinJ_x4XzklCmQlcqku5WAj/view?usp=sharing&usp=embed_facebook">Sentiment Insight: Web Application for Emotion Analysis</a></li>
+    <li><a href="https://pritam.streamlit.app/">My Website (Using Python only)</a></li>
+    <li><a href="https://drive.google.com/file/d/1ak_Jylfs-mCq4o2mb--JbB4OQMLvrba0/view?usp=drivesdk&usp=embed_facebook">Text to Notes: Assignments made easy</a></li>
+    <li><a href="https://drive.google.com/file/d/1ak-5VWjZau7yoFfYa7KsW1s0PjmoKYUR/view?usp=drivesdk&usp=embed_facebook">AI Document Q&A: Intelligent Query System</a></li>
+    <li><a href="https://drive.google.com/file/d/1aY2-IPirSceLS5RE8RR3hjVeGbyuGsEg/view?usp=drivesdk&usp=embed_facebook">Audio-Visualizer: Dynamic Circular Waveform</a></li>
+    <li><a href="https://drive.google.com/file/d/1ak89jBOVEPsZHPUAAShgMutmd3l74oFU/view?usp=drivesdk&usp=embed_facebook">Realtime English to Odia translator</a></li>
+    <li><a href="https://drive.google.com/file/d/1ai6H828cTGOPSVfwZU0DpbIQAspEro0j/view?usp=drivesdk&usp=embed_facebook">Solar System Simulation</a></li>
+    <li><a href="https://drive.google.com/file/d/1lIZn_aIPAtEWCLsS0ArLKj78Zomeximi/view?usp=drivesdk&usp=embed_facebook&usp=embed_facebook">Piano Maestro: Java Swing Musical Application</a></li>
+    <li><a href="https://www.linkedin.com/in/pritamacharya/details/projects/?profileId=ACoAAEaYeAkBnm_ZXPOFbRVp-fGdWgWVJj7qeQ4">CampusPoster AI: Intelligent Poster Generator for College Clubs</a></li>
+  </ul>
+</div>
+
+<nav>
+  <!-- Drawer Button added inside the nav -->
+  <span id="drawerButton" onclick="openDrawer()">&#9776;</span>
+
+  <ul class="menu">
+    <li><a href="https://www.linkedin.com/in/pritamacharya/" target="_blank">LinkedIn</a></li>
+    <li><a href="https://www.instagram.com/pritam.ach/" target="_blank">Instagram</a></li>
+    <li><a href="https://github.com/IamPritamAcharya/" target="_blank">GitHub</a></li>
+    <li><a href="https://leetcode.com/" target="_blank">LeetCode</a></li>
+    <li><a href="mailto:pritamach.exe@gmail.com">Email</a></li>
+  </ul>
+</nav>
+
+<!-- Business Card Code -->
+<div class="card">
+  <div class="card-back">
+    <div class="line-numbers">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+      <div>4</div>
+      <div>5</div>
+      <div>6</div>
+      <div>7</div>
+      <div>8</div>
+      <div>9</div>
+    </div><code><span class="variable">const </span><span class="function">aboutMe </span><span class="operator">= </span><span>{</span>
+      <div class="indent"> <span class="property">name</span><span class="operator">: </span><span class="string">'Pritam Acharya'</span><span>,</span></div>
+      
+      <div class="indent"> 
+        <span class="property">Internships</span><span class="operator">: </span><span>{</span>
+        <div class="indent"> 
+          <span class="property"><a href="https://webitoinfotech.com" style="color: rgb(239, 83, 80); text-decoration: none;" target="_blank">Webito Infotech</a></span>
+          <span class="operator">: </span><span class="string">'Flutter Developer'</span><span>,</span>
+        </div>
+        <div class="indent">
+          <span class="property"><a href="https://www.cloudcounselage.com" style="color: rgb(239, 83, 80); text-decoration: none;" target="_blank">Cloud Counselage</a></span>
+          <span class="operator">:</span><span class="string">'Python Developer'</span>
+        </div>
+        <span>}</span><span>,</span>
+      </div>
+
+      <div class="indent"> <span class="property">Skills</span><span class="operator">: </span><span class="string">'Java','Python','Flutter'</span><span></span></div>
+      <span>}</span></code>
+      
+  </div>
+  <div class="card-front">
+    <div class="line-numbers">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+      <div>4</div>
+      <div>5</div>
+      <div>6</div>
+      <div>7</div>
+      <div>8</div>
+      <div>9</div>
+    </div><code><span class="variable">this</span><span>.</span><span class="method">addEventListener</span><span>(</span><span class="string">'mouseover'</span><span>, </span><span class="function">() => </span><span>{ </span>
+      <div class="indent"><span class="variable">this</span><span>.</span><span class="property">flipCard </span><span>= </span><span class="boolean">true</span><span>;</span></div><span>});</span></code>
+  </div>
+</div>
+
+<div class="cursor"></div>
+  <div class="cursor_point"></div>
+
+<!-- Drawer Script -->
+<script src="script.js"></script>
+
+</body>
+</html>
