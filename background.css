@@ -65,14 +65,7 @@
     box-shadow: 1140px 1716px #FFF , 469px 754px #FFF , 1839px 1941px #FFF , 500px 1774px #FFF , 95px 466px #FFF , 1295px 444px #FFF , 1379px 1194px #FFF , 574px 1108px #FFF , 320px 1608px #FFF , 446px 1351px #FFF , 636px 1487px #FFF , 757px 1678px #FFF , 526px 211px #FFF , 782px 1933px #FFF , 1914px 211px #FFF , 865px 796px #FFF , 1232px 239px #FFF , 782px 1060px #FFF , 732px 875px #FFF , 1044px 1323px #FFF , 361px 1356px #FFF , 352px 1369px #FFF , 594px 1714px #FFF , 716px 1519px #FFF , 1879px 841px #FFF , 528px 1739px #FFF , 1266px 82px #FFF , 1292px 1446px #FFF , 890px 1430px #FFF , 1303px 1593px #FFF , 1128px 1494px #FFF , 1979px 1953px #FFF , 340px 17px #FFF , 1503px 1861px #FFF , 1309px 1694px #FFF , 454px 459px #FFF , 292px 1721px #FFF , 1568px 1059px #FFF , 22px 482px #FFF , 415px 227px #FFF , 559px 1284px #FFF , 1454px 60px #FFF , 1829px 1826px #FFF , 1002px 111px #FFF , 546px 239px #FFF , 1792px 1824px #FFF , 434px 1828px #FFF , 97px 947px #FFF , 1966px 1151px #FFF , 1290px 119px #FFF , 464px 1902px #FFF , 827px 401px #FFF , 126px 1627px #FFF , 1302px 1532px #FFF , 410px 233px #FFF , 1415px 761px #FFF , 1146px 702px #FFF , 762px 1885px #FFF , 1987px 938px #FFF , 1871px 1543px #FFF , 1738px 1265px #FFF , 351px 1570px #FFF , 802px 1971px #FFF , 1970px 746px #FFF , 1725px 735px #FFF , 864px 1420px #FFF , 33px 226px #FFF , 1294px 1601px #FFF , 139px 1815px #FFF , 1619px 1827px #FFF , 527px 1106px #FFF , 1432px 1191px #FFF , 1974px 1047px #FFF , 1071px 1424px #FFF , 1582px 1075px #FFF , 702px 1662px #FFF , 458px 1022px #FFF , 1171px 236px #FFF , 886px 92px #FFF , 826px 1218px #FFF , 16px 1543px #FFF , 1941px 608px #FFF , 1473px 1310px #FFF , 527px 249px #FFF , 1292px 96px #FFF , 362px 1125px #FFF , 1745px 446px #FFF , 737px 342px #FFF , 716px 1148px #FFF , 917px 233px #FFF , 787px 1257px #FFF , 690px 419px #FFF , 855px 1559px #FFF , 1946px 1514px #FFF , 1312px 1347px #FFF , 801px 1744px #FFF , 548px 692px #FFF , 1704px 1245px #FFF , 1872px 751px #FFF , 1098px 1943px #FFF;
   }
   
-  html {
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    font-family: "lato", sans-serif;
-    color: #FFF;
-    background: radial-gradient(ellipse at bottom, #0c1116 0%, #090a0f 100%);
-  }
+
   
   #horizon {
     position: absolute;
